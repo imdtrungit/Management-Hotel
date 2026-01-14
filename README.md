@@ -1,88 +1,84 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# MANAGEMENT-HOTEL
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+**Transform Hospitality with Seamless Management Excellence**
 
-## About Laravel
+![last commit](https://img.shields.io/github/last-commit/imdtrungit/Management-Hotel)
+![javascript](https://img.shields.io/badge/javascript-65.9%25-yellow)
+![languages](https://img.shields.io/badge/languages-6-blue)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+---
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Built with the tools and technologies:
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+![JSON](https://img.shields.io/badge/JSON-black)
+![Markdown](https://img.shields.io/badge/Markdown-black)
+![npm](https://img.shields.io/badge/npm-red)
+![Composer](https://img.shields.io/badge/Composer-brown)
+![JavaScript](https://img.shields.io/badge/JavaScript-yellow)
+![Vue.js](https://img.shields.io/badge/Vue.js-green)
+![XML](https://img.shields.io/badge/XML-blue)
+![PHP](https://img.shields.io/badge/PHP-purple)
+![Vite](https://img.shields.io/badge/Vite-646CFF)
+![Axios](https://img.shields.io/badge/Axios-blueviolet)
+![Chart.js](https://img.shields.io/badge/Chart.js-pink)
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## Table of Contents
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+- [Overview](#overview)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Testing](#testing)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+---
 
-## Laravel Sponsors
+## Overview
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Management-Hotel is an all-in-one developer toolset tailored for building and managing Laravel-based hotel management platforms. It simplifies backend operations, content management, and frontend development with modern tools.
 
-### Premium Partners
+### Why Management-Hotel?
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+This project streamlines the development process by integrating command-line management, content organization, and dynamic dashboards. The core features include:
 
-## Contributing
+- 🛠 **Command-line Management**  
+  Facilitates Laravel artisan commands for migrations, caching, and deployment automation.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+- 🎨 **Modern Frontend Setup**  
+  Uses Vue 3 with Vite for fast, reactive user interfaces.
 
-## Code of Conduct
+- 📊 **Data Visualization**  
+  Provides admin dashboards with charts for revenue, room stats, and bookings.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+- 🔐 **Secure Role & Permission Control**  
+  Implements middleware and models for role-based access.
 
-## Security Vulnerabilities
+- 📝 **Content Management**  
+  Supports articles, categories, slides, and reviews for rich content handling.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+- 🚀 **Automated Data Seeding**  
+  Includes seeders for initial setup, ensuring quick deployment and testing.
 
-## License
+---
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Getting Started
 
+### Prerequisites
 
+This project requires the following dependencies:
 
-================================================
-FILE: BE/artisan
-================================================
-#!/usr/bin/env php
-<?php
+- **Programming Language:** PHP  
+- **Package Manager:** Composer, npm
 
-use Symfony\Component\Console\Input\ArgvInput;
+---
 
-define('LARAVEL_START', microtime(true));
+### Installation
 
-// Register the Composer autoloader...
-require __DIR__.'/vendor/autoload.php';
+Build Management-Hotel from the source and install dependencies:
 
-// Bootstrap Laravel and handle the command...
-$status = (require_once __DIR__.'/bootstrap/app.php')
-    ->handleCommand(new ArgvInput);
+#### 1. Clone the repository
 
-exit($status);
-
+```bash
+git clone https://github.com/imdtrungit/Management-Hotel
