@@ -81,6 +81,41 @@ Dự án yêu cầu các công cụ sau:
 Thực hiện các bước sau để cài đặt và chạy dự án từ source:
 
 1. **Clone repository**
-
    ```bash
    git clone https://github.com/imdtrungit/Management-Hotel.git
+
+2. **Di chuyển vào thư mục dự án**
+   ```bash
+  cd Management-Hotel
+
+3. **Cài đặt dependencies PHP (Composer)**
+   ```bash
+   composer install
+
+4. **Cài đặt dependencies JavaScript (npm)**
+   ```bash
+   npm install
+
+5. **Sao chép file môi trường**
+   ```bash
+   cp .env.example .env
+
+6. **Tạo application key**
+   ```bash
+   php artisan key:generate
+
+7. **Cấu hình database trong file .env**
+   Mở file .env và chỉnh sửa phần database phù hợp với máy của bạn:
+
+8. **Chạy migration và seed dữ liệu mẫu**
+   ```bash
+   php artisan migrate --seed
+   
+9. **Biên dịch frontend assets (Vite)**
+   ```bash
+   npm run dev
+   npm run build
+   
+10. **Khởi động server Laravel**
+   ```bash
+   php artisan serve
