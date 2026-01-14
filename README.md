@@ -8,7 +8,7 @@
 
 ---
 
-## Built with the tools and technologies:
+## Built with the tools and technologies
 
 ![JSON](https://img.shields.io/badge/JSON-black)
 ![Markdown](https://img.shields.io/badge/Markdown-black)
@@ -41,25 +41,12 @@ Management-Hotel is an all-in-one developer toolset tailored for building and ma
 
 ### Why Management-Hotel?
 
-This project streamlines the development process by integrating command-line management, content organization, and dynamic dashboards. The core features include:
-
-- 🛠 **Command-line Management**  
-  Facilitates Laravel artisan commands for migrations, caching, and deployment automation.
-
-- 🎨 **Modern Frontend Setup**  
-  Uses Vue 3 with Vite for fast, reactive user interfaces.
-
-- 📊 **Data Visualization**  
-  Provides admin dashboards with charts for revenue, room stats, and bookings.
-
-- 🔐 **Secure Role & Permission Control**  
-  Implements middleware and models for role-based access.
-
-- 📝 **Content Management**  
-  Supports articles, categories, slides, and reviews for rich content handling.
-
-- 🚀 **Automated Data Seeding**  
-  Includes seeders for initial setup, ensuring quick deployment and testing.
+- 🛠 Command-line management with Laravel Artisan  
+- 🎨 Vue 3 + Vite frontend setup  
+- 📊 Admin dashboards with data visualization  
+- 🔐 Role & permission based access control  
+- 📝 Content management (articles, categories, slides, reviews)  
+- 🚀 Automated database seeding  
 
 ---
 
@@ -67,18 +54,15 @@ This project streamlines the development process by integrating command-line man
 
 ### Prerequisites
 
-This project requires the following dependencies:
-
 - **Programming Language:** PHP  
-- **Package Manager:** Composer, npm
+- **Package Managers:** Composer, npm  
 
 ---
 
 ### Installation
 
-Build Management-Hotel from the source and install dependencies:
-
-#### 1. Clone the repository
-
 ```bash
 git clone https://github.com/imdtrungit/Management-Hotel
+cd Management-Hotel
+composer install
+npm install
